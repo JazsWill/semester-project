@@ -40,24 +40,6 @@ Overall, this project is focused on movie ticket purchases and availability, so 
 
 ![image](https://user-images.githubusercontent.com/92323456/140095099-8583117d-15c5-41b4-ab15-94843525bc32.png)
 
-Says
-* What movie do I want to watch?  
-* What time does the movie start? 
-
-Thinks
-* How much does it cost?
-* How many tickets do I need to purchase?
-
-Does
-* Selects movie from list
-* Purchases movie ticket(s)
-
-Feels
-* Overwhelmed by movie options
-* Excited about purchasing a ticket
-* Upset about soldout movie
-
-
 
 
 
