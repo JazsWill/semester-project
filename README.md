@@ -39,14 +39,3 @@ Overall, this project is focused on movie ticket purchases and availability, so 
 ## Empathy Map
 
 ![image](https://user-images.githubusercontent.com/92323456/140095099-8583117d-15c5-41b4-ab15-94843525bc32.png)
-
-
-
-
-
-
-
-
-
-
-
