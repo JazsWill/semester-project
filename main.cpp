@@ -72,6 +72,33 @@ void checkSeats(char movieSeatArr[100], int seatNum)
     } while ((sorry == 'y') || (sorry == 'Y'));
 }
 
+void createNewFile(int movieID, string movieName)
+{
+    /*int movieMon,
+        movieDay,
+        movieYr,
+        movieHr,
+        movieMin,
+        theaterNum;
+    const double price = 9.99;
+    int movArray[10];
+    fstream database;
+    database.open("Database.txt");
+
+    cout << "Enter Movie ID: ";
+    cin >> movieID;
+    cout << "Enter Name: ";
+    cin >> movieName;
+    cout << "Enter Show Date (mm/dd/yyyy): ";
+    cin >> movieMon >> "/" >> movieDay >> "/" >> movieYr;
+    cout << "Enter Show Time (hh:mm): ";
+    cin >> movieHr >> ":" >> movieMin;
+    cout << "Enter Ticket Price: $";
+    cin >> price;
+
+    while (database << )*/
+}
+
 int printMovieTicket(string movieArr[10], int movieSelect, string firstName, string lastName, int seatNum)
 {
     string 
@@ -87,7 +114,7 @@ int printMovieTicket(string movieArr[10], int movieSelect, string firstName, str
     cout << "\t\t Seat Number: " << seatNum;
     cout << "\t\t Date: December 3, 2021" << endl;
     cout << "\t\t Time: 7:00pm" << endl;
-    cout << "\t\t Ticket Price: $9.99" << endl;
+    cout << "\t\t Ticket Price: $9.99" << endl; // All ticket prices are $9.99 
     cout << "\t\t Theater Number: 3" << endl;
     return 0;
 }
@@ -170,9 +197,9 @@ bool checkID()
     return false;
 }
 
-void addMovie(fstream& list)
+void addMovie()
 {
-    string movieName;
+    /*string movieName;
     fstream database;
     int movieID,
         movieMon,
@@ -182,7 +209,7 @@ void addMovie(fstream& list)
         movieMin;
     double price;
     
-    /*cout << "Enter Movie ID: ";
+    cout << "Enter Movie ID: ";
     cin >> movieID >> endl;
     cout << "Enter Name: ";
     cin >> movieName >> endl;
@@ -219,7 +246,7 @@ void editMovie()
 
 int main()
 {
-    int access, ch1, ch2;
+    int access, ch1, ch2, seatNumber;
     char movieSeats[10][10];
     char movieSeatArr[100];
 
@@ -272,12 +299,12 @@ int main()
 
                     case 3:
                     {
-
+                        checkSeats(movieSeatArr, seatNumber);
                     }
 
                     case 4:
                     {
-
+                        break;
                     }
                 }
                 break;
@@ -307,22 +334,22 @@ int main()
                     {
                         case 1:
                         {
-
+                            addMovie();
                         }
 
                         case 2:
                         {
-
+                            deleteMovie();
                         }
 
                         case 3:
                         {
-
+                            editMovie();
                         }
 
                         case 4:
                         {
-
+                            break;
                         }
                     }
                 }
